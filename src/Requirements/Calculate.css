@@ -1,0 +1,80 @@
+.calculate-container {
+    padding: 30px;
+    padding-top: 60px;
+    margin: 0px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .calculate-container h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  
+  .data-container {
+    position: relative;
+    padding: 20px;
+    background-color: rgb(52, 108, 102);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+    background: #000000;
+  }
+  
+  .data-container p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #ff0202;
+  }
+  
+  .data-container p strong {
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .data-container h2 {
+    font-size: 1.8rem;
+    color: #dddddd;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .calculate-container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .data-container {
+      padding: 15px;
+    }
+  
+    .calculate-container h1 {
+      font-size: 2rem;
+    }
+  
+    .data-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .data-container p {
+      font-size: 1rem;
+    }
+  }
+  
