@@ -16,7 +16,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/login", formData);
+      const response = await axios.post("https://caloriecalc-backend.onrender.com/api/login", formData);
       localStorage.setItem("email", formData.email);
       navigate("/Details");
     } catch (error) {

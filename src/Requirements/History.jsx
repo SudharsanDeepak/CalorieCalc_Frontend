@@ -16,7 +16,7 @@ const History = () => {
   
     const fetchHistory = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/history/${userEmail}`);
+        const response = await axios.get(`https://caloriecalc-backend.onrender.com/api/history/${userEmail}`);
         setHistory(response.data);
       } catch (error) {
         console.error("Error fetching history:", error);

@@ -49,7 +49,7 @@ const Calculate = () => {
         return;
       }
   
-      await axios.post("http://localhost:5000/api/history", {
+      await axios.post("https://caloriecalc-backend.onrender.com/api/history", {
         userEmail,
         name: formData.name,
         age: formData.age,

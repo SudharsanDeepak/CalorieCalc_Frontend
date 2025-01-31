@@ -21,7 +21,7 @@ const Register = () => {
     }
 
     try {
-      await axios.post("http://localhost:5000/api/register", formData);
+      await axios.post("https://caloriecalc-backend.onrender.com/api/register", formData);
       navigate("/");
     } catch (error) {
       setError("Registration failed! Email might already be in use.");
