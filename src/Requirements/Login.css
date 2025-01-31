@@ -8,6 +8,7 @@ body {
   height: 100vh;
 }
 
+
 .login-container {
   margin-top: 30%;
   margin-left: 17%;
@@ -16,7 +17,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 400px;
+  max-width: 550px;
   box-sizing: border-box;
 }
 

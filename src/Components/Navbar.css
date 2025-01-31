@@ -8,9 +8,6 @@
     background-color: rgb(52, 108, 102);
     color: black;
     height:100vh;
-
-
-    
 }
 
 .NavHead{
@@ -41,3 +38,6 @@ nav a:hover {
     border-bottom: 2px solid #000000;
   }
   
+.Logout{
+    color: rgb(210, 30, 30);
+}

@@ -27,6 +27,7 @@ const Login = () => {
   return (
     <div className="Full">
     <div className="login-container">
+    <h1>Welcome to Calorie Calc!</h1>
       <form onSubmit={handleSubmit} className="login-form">
         <h2>Login</h2>
         {error && <p className="error-message">{error}</p>}
